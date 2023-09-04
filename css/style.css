@@ -113,7 +113,7 @@ nav {
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-bg);
+    background-color: #3b3a3ab8;
     width: 100%;
     z-index: 900;
 }
@@ -179,7 +179,9 @@ nav {
     color: white;
     cursor:pointer;
 }
-
+/* =============================================================================
+    Section THE BAND
+*/
 .the-band {
     display: flex;
     flex-direction: column;
@@ -209,13 +211,9 @@ nav {
 }
 
 
-
-
-
-
-
-
-
+/* =============================================================================
+    Section TOUR DATES
+*/
 
 
 #dates {
@@ -388,14 +386,24 @@ textarea {
 }
 
 .contact-form form button {
-    padding: 5px;
     margin: 20px 0;
     float: right;
-    background-color: white;
-    border: solid 1px var(--color-border);
-    border-radius: 5px;
-    margin-bottom: 60px;
-    cursor: pointer;
+}
+
+.from-the-blog {
+    background-color: #f6f6f6;
+}
+.from-the-blog h3 {
+    text-align: center;
+    letter-spacing: 12px;
+}
+.mike-ross {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+}
+.mike-ross p:nth-of-type(1) {
+    font-size: 25px;
 }
 
 .maps {
